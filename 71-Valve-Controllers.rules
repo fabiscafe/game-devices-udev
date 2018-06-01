@@ -1,0 +1,10 @@
+# Valve USB devices
+SUBSYSTEM=="usb", ATTRS{idVendor}=="28de", MODE="0660", TAG+="uaccess"
+# Steam Controller udev write access
+KERNEL=="uinput", SUBSYSTEM=="misc", MODE="0660", TAG+="uaccess"
+
+# Valve HID devices; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="28de", MODE="0660", TAG+="uaccess"
+
+# Valve HID devices; bluetooth
+KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0660", TAG+="uaccess"

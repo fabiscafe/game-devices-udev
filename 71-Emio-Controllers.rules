@@ -1,0 +1,2 @@
+# EMiO PS4 Elite Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="1cf6", MODE="0660", TAG+="uaccess"
