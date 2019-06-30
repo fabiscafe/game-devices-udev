@@ -4,6 +4,10 @@ This repo contains udev rules to make some controllers available for the users s
 ## How to set it up?
 Thats easy!
 
+### Archlinux
+There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)←
+
+### Others:
 1. Download the [archive](https://gitlab.com/Fabish/game-devices-udev/-/archive/master/game-devices-udev-master.zip)
 2. Extrackt
 3. copy all the rule files to `/etc/udev/rules.d`
