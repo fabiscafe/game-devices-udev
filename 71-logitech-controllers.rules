@@ -1,2 +1,2 @@
-# F310 Gamepad
+# Logitech F310 Gamepad; USB
 KERNEL=="hidraw*", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c216", MODE="0660", TAG+="uaccess"
