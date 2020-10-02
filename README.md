@@ -70,6 +70,7 @@ If everything was right, it should work now!
 * Razer Raiju PS4 Controller
 * Razer Panthera Arcade Stick
 ### Sony
+* Sony PlayStation DualShock 3; bluetooth; USB
 * Sony PlayStation DualShock 4; bluetooth; USB
 * Sony PlayStation DualShock 4 Slim; bluetooth; USB
 * Sony PlayStation DualShock 4 Wireless Adapter; USB
