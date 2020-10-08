@@ -17,6 +17,13 @@ There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)
 
 If everything was right, it should work now!
 
+## Add my device!
+### We need you help!
+In order to create an udev rule, we need some infos
+* Excact name (from the box, for example. Best case with a model-number)
+* Output of `udevadm monitor --property` (You need to disconnect the device before running the command)
+* Output of the device directly, like in `devadm info --query=all --attribute-walk --name=/dev/input/js0` or `udevadm info --query=all --attribute-walk --name=/dev/input/js1`
+
 ## Supported Devices
 ### 8Bitdo
 * 8Bitdo F30 P1
