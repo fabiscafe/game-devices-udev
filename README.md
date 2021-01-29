@@ -8,8 +8,8 @@ Thats easy!
 There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)←
 
 ### Others:
-1. Download the [archive](https://gitlab.com/Fabish/game-devices-udev/-/archive/master/game-devices-udev-master.zip)
-2. Extrackt
+1. Download the [archive](https://gitlab.com/fabis_cafe/game-devices-udev/-/archive/master/game-devices-udev-master.zip)
+2. extract
 3. copy all the rule files to `/etc/udev/rules.d`
 4. create another file: `/etc/modules-load.d/uinput.conf`
 5. put `uinput` into that file
