@@ -73,6 +73,7 @@ In order to create an udev rule, we need some infos
 * NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB
 ### PowerA
 * PowerA Wired Controller for Nintendo Switch; USB
+* PowerA Wireless Controller for Nintendo Switch; bluetooth
 ### Razer
 * Razer Raiju PS4 Controller
 * Razer Panthera Arcade Stick
