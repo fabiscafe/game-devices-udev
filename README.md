@@ -115,4 +115,4 @@ In case you have a working rule and want to get it merged you're free to do this
 * Valve USB devices
 * Valve Steam Controller
 * Valve HID devices; bluetooth; USB
-* Diverse-VR
+* Various-VR
