@@ -81,6 +81,7 @@ In order to create an udev rule, we need some infos
 * Sony PlayStation DualShock 4; bluetooth; USB
 * Sony PlayStation DualShock 4 Slim; bluetooth; USB
 * Sony PlayStation DualShock 4 Wireless Adapter; USB
+* Sony DualSense Wireless-Controller; bluetooth; USB
 * PlayStation VR
 ### Strikepad
 * Strikepad PS4 Grip Add-on
