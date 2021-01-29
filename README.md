@@ -54,6 +54,7 @@ In order to create an udev rule, we need some infos
 * Hori HORIPAD 4 FPS
 * Hori HORIPAD 4 FPS Plus
 * Hori HORIPAD S; USB
+* Hori Nintendo Switch HORIPAD Wired Controller; USB
 ### HTC
 * Diverse(?)
 ### Logitech
