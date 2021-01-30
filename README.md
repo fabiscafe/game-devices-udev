@@ -92,6 +92,10 @@ In case you have a working rule and want to get it merged you're free to do this
 * NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); bluetooth
 * NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB
 
+### PDP
+* PDP Afterglow Deluxe+ Wired Controller; USB
+* PDP Nintendo Switch Faceoff Wired Pro Controller; USB
+
 ### PowerA
 * PowerA Wired Controller for Nintendo Switch; USB
 * PowerA Wireless Controller for Nintendo Switch; bluetooth
@@ -116,3 +120,6 @@ In case you have a working rule and want to get it merged you're free to do this
 * Valve Steam Controller
 * Valve HID devices; bluetooth; USB
 * Various-VR
+
+### Zeroplus Technology Corporation
+* Zeroplus Technology Corporation P4 (hitbox) #disabled for now

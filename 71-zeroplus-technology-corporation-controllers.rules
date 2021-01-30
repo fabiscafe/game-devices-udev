@@ -1,0 +1,6 @@
+# Zeroplus Technology Corporation P4 (hitbox)
+## There is almost no information about this device online available
+## Because of this, this rule will stay commented out. To enable the rule, just uncomment it.
+## Please provide any info to https://gitlab.com/fabis_cafe/game-devices-udev to make this
+## rule available by default for everyone.
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0ef6", MODE="0660", TAG+="uaccess"
