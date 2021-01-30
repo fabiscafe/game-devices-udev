@@ -93,6 +93,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB
 
 ### PDP
+* PDP Afterglow Deluxe+ Wired Controller; USB
 * PDP Nintendo Switch Faceoff Wired Pro Controller; USB
 
 ### PowerA
