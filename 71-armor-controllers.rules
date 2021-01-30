@@ -1,2 +1,0 @@
-# Armor PS4 Armor 3 Pad
-KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0e10", MODE="0660", TAG+="uaccess"

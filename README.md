@@ -27,11 +27,10 @@ In order to create an udev rule, we need some infos
 ### Merge Request
 In case you have a working rule and want to get it merged you're free to do this. Please do one MR for every device you want to add. Also do not forget to update the README.md with the device name. Format:
 ```
-# [VENDOR] [MARKETING-DEVICE-NAME]; {CONNECTION-TYPE}; {CONNECTION-TYPE}
+# [VENDOR] [MARKETING-DEVICE-NAME]; {CONNECTION-TYPE}; {CONNECTION-TYPE} (VendorID:ProductID)
 ```
-
 ## Supported Devices
-### 8Bitdo
+### 8Bitdo (2dc8)
 * 8Bitdo F30 P1
 * 8Bitdo F30 P2
 * 8Bitdo N30
@@ -46,80 +45,99 @@ In case you have a working rule and want to get it merged you're free to do this
 * 8Bitdo ZERO
 * 8Bitdo Retro-Bit xRB8-64
 
-### Alpha Imaging Technology Corp.
-* VR Set
+### Alpha Imaging Technology Corp. (114d)
+* VR Set (114d:8a12)
 
-### Armor
-* Armor PS4 Armor 3 Pad
+### ASTRO Gaming (9886)
+* ASTRO Gaming C40 Controller; USB (9886:0025)
 
-### ASTRO Gaming
-* ASTRO Gaming C40 Controller; USB
+### Betop (11c0)
+* Betop PS4 Fun Controller (11c0:4001)
 
-### Betop
-* Betop PS4 Fun Controller
+### Hori (0f0d)
+* Hori RAP4 (0f0d:008a)
+* Hori HORIPAD 4 FPS (0f0d:0055)
+* Hori HORIPAD 4 FPS Plus (0f0d:0066)
+* Hori HORIPAD S; USB (0f0d:00c1)
+* Hori Nintendo Switch HORIPAD Wired Controller; USB (0f0d:00c1)
 
-### EMiO
-* EMiO PS4 Elite Controller
+### HTC (0bb4)
+* Unknown (0bb4:2c87)
+* Unknown (0bb4:0306)
+* Unknown (0bb4:0309)
+* Unknown (0bb4:030a)
+* Unknown (0bb4:030b)
+* Unknown (0bb4:030c)
+* Unknown (0bb4:030e)
+* HTC VIVE Cosmos; USB (0bb4:030e)(057e:0315)(057e:0323)
 
-### Hori
-* Hori RAP4
-* Hori HORIPAD 4 FPS
-* Hori HORIPAD 4 FPS Plus
-* Hori HORIPAD S; USB
-* Hori Nintendo Switch HORIPAD Wired Controller; USB
+### Logitech (046d)
+* Logitech F310 Gamepad; USB (046d:c216)
+* Logitech F710 Wireless Gamepad; USB (046d:c21f) #EXPERIMENTAL
 
-### HTC
-* Various(?)
+### Mad Catz (0738)
+* Mad Catz Street Fighter V Arcade FightPad PRO (0738:8250)
+* Mad Catz Street Fighter V Arcade FightStick TE S+ (0738:8384)
 
-### Logitech
+### Microsoft (045e)
+Microsoft Xbox360 Controller; USB (045e:028e) #EXPERIMENTAL
 
-* Logitech F310 Gamepad; USB
-* Logitech F710 Wireless Gamepad; USB #EXPERIMENTAL
+### Nacon (146b)
+* Nacon PS4 Revolution Pro Controller (146b:0d01)
 
-### Mad Catz
-* Mad Catz Street Fighter V Arcade FightPad PRO
-* Mad Catz Street Fighter V Arcade FightStick TE S+
+### Nintendo (057e)
+* Nintendo Switch Pro Controller; bluetooth; USB (057e:2009)
+* Nintendo GameCube Controller / Adapter; USB (057e:0337)
 
-### Nacon
-* Nacon PS4 Revolution Pro Controller
+### NVIDIA (0955)
+* NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only) (0955:7203)
+* NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); bluetooth (0955:7214)
+* NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB (0955:7210)
 
-### Nintendo
-* Nintendo Switch Pro Controller; bluetooth; USB
-* Nintendo GameCube Controller / Adapter; USB
+### PDP (0e6f)
+* PDP Afterglow Deluxe+ Wired Controller; USB (0e6f:0188)
+* PDP Nintendo Switch Faceoff Wired Pro Controller; USB (0e6f:0180)
 
-### NVIDIA
-* NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only)
-* NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); bluetooth
-* NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB
+### Personal Communication Systems, Inc. (0810)
+* Personal Communication Systems, Inc. Twin USB Gamepad; USB (0810:e301)
 
-### PDP
-* PDP Afterglow Deluxe+ Wired Controller; USB
-* PDP Nintendo Switch Faceoff Wired Pro Controller; USB
+### PowerA (20d6)
+* PowerA Wired Controller for Nintendo Switch; USB (20d6:a711)
+* PowerA Wireless Controller for Nintendo Switch; bluetooth (NA:NA)
 
-### PowerA
-* PowerA Wired Controller for Nintendo Switch; USB
-* PowerA Wireless Controller for Nintendo Switch; bluetooth
+### Razer (1532)
+* Razer Raiju PS4 Controller (1532:1000)
+* Razer Panthera Arcade Stick (1532:0401)
 
-### Razer
-* Razer Raiju PS4 Controller
-* Razer Panthera Arcade Stick
+### Sony (054c)
+* Sony PlayStation Strikepack; USB (054c:05c5)
+* Sony PlayStation DualShock 3; bluetooth; USB (054c:0268)
+* Sony PlayStation DualShock 4; bluetooth; USB (054c:05c4)
+* Sony PlayStation DualShock 4 Slim; bluetooth; USB (054c:09cc)
+* Sony PlayStation DualShock 4 Wireless Adapter; USB (054c:0ba0)
+* Sony DualSense Wireless-Controller; bluetooth; USB (054c:0ce6)
+* PlayStation VR (054c:09af)
 
-### Sony
-* Sony PlayStation DualShock 3; bluetooth; USB
-* Sony PlayStation DualShock 4; bluetooth; USB
-* Sony PlayStation DualShock 4 Slim; bluetooth; USB
-* Sony PlayStation DualShock 4 Wireless Adapter; USB
-* Sony DualSense Wireless-Controller; bluetooth; USB
-* PlayStation VR
-
-### Strikepad
-* Strikepad PS4 Grip Add-on
-
-### Valve
-* Valve USB devices
-* Valve Steam Controller
-* Valve HID devices; bluetooth; USB
-* Various-VR
+### Valve (28de)
+* Valve USB devices (28de:*)
+* Valve Steam Controller (28de:*)
+* Valve HID devices; bluetooth; USB (28de:*)
+* Unknown-VR (28de:1043)
+* Unknown-VR (28de:1142)
+* Unknown-VR (28de:2000)
+* Unknown-VR (28de:2010)
+* Unknown-VR (28de:2011)
+* Unknown-VR (28de:2012)
+* Unknown-VR (28de:2021)
+* Unknown-VR (28de:2022)
+* Unknown-VR (28de:2050)
+* Unknown-VR (28de:2101)
+* Unknown-VR (28de:2102)
+* Unknown-VR (28de:2150)
+* Unknown-VR (28de:2300)
+* Unknown-VR (28de:2301)
 
 ### Zeroplus Technology Corporation
-* Zeroplus Technology Corporation P4 (hitbox) #disabled for now
+* Armor PS4 Armor 3 Pad (0c12:0e10)
+* EMiO PS4 Elite Controller (0c12:1cf6)
+* Zeroplus Technology Corporation P4 (hitbox) (0c12:0ef6) #disabled for now

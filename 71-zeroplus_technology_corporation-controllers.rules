@@ -4,3 +4,9 @@
 ## Please provide any info to https://gitlab.com/fabis_cafe/game-devices-udev to make this
 ## rule available by default for everyone.
 KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0ef6", MODE="0660", TAG+="uaccess"
+
+# Armor PS4 Armor 3 Pad
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0e10", MODE="0660", TAG+="uaccess"
+
+# EMiO PS4 Elite Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="1cf6", MODE="0660", TAG+="uaccess"
