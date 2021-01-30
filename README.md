@@ -120,3 +120,6 @@ In case you have a working rule and want to get it merged you're free to do this
 * Valve Steam Controller
 * Valve HID devices; bluetooth; USB
 * Various-VR
+
+### Zeroplus Technology Corporation
+* Zeroplus Technology Corporation P4 (hitbox) #disabled for now
