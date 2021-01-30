@@ -10,6 +10,12 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="1cf6", MODE="0660
 # Nyko Xbox Controller; USB
 KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8801", MODE="0660", TAG+="uaccess"
 
+# Unknown-Brand Xbox Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8802", MODE="0660", TAG+="uaccess"
+
+# Unknown-Brand Xbox Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8810", MODE="0660", TAG+="uaccess"
+
 # Zeroplus Technology Corporation P4 (hitbox)
 ## There is almost no information about this device online available
 ## Because of this, this rule will stay commented out. To enable the rule, just uncomment it.
