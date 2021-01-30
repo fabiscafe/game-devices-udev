@@ -1,0 +1,2 @@
+# PDP Nintendo Switch Faceoff Wired Pro Controller; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0180", MODE="0660", TAG+="uaccess"
