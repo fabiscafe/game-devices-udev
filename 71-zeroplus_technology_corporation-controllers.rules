@@ -1,9 +1,5 @@
-# Zeroplus Technology Corporation P4 (hitbox)
-## There is almost no information about this device online available
-## Because of this, this rule will stay commented out. To enable the rule, just uncomment it.
-## Please provide any info to https://gitlab.com/fabis_cafe/game-devices-udev to make this
-## rule available by default for everyone.
-KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0ef6", MODE="0660", TAG+="uaccess"
+# Zeroplus(ZP) appears to be a tech-provider for variouse other companies. 
+# They all use the ZP ID. Because of this, they are grouped in this rule.
 
 # Armor PS4 Armor 3 Pad
 KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0e10", MODE="0660", TAG+="uaccess"
@@ -13,3 +9,10 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="1cf6", MODE="0660
 
 # Nyko Xbox Controller; USB
 KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8801", MODE="0660", TAG+="uaccess"
+
+# Zeroplus Technology Corporation P4 (hitbox)
+## There is almost no information about this device online available
+## Because of this, this rule will stay commented out. To enable the rule, just uncomment it.
+## Please provide any info to https://gitlab.com/fabis_cafe/game-devices-udev to make this
+## rule available by default for everyone.
+#KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0ef6", MODE="0660", TAG+="uaccess"
