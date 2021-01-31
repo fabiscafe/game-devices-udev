@@ -81,6 +81,7 @@ In case you have a working rule and want to get it merged you're free to do this
 
 ### Microsoft (045e)
 Microsoft Xbox360 Controller; USB (045e:028e) #EXPERIMENTAL
+Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### Nacon (146b)
 * Nacon PS4 Revolution Pro Controller (146b:0d01)
