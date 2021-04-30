@@ -98,6 +98,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 ### PDP (0e6f)
 * PDP Afterglow Deluxe+ Wired Controller; USB (0e6f:0188)
 * PDP Nintendo Switch Faceoff Wired Pro Controller; USB (0e6f:0180)
+* PDP Wired Fight Pad Pro for Nintendo Switch; USB (0e6f:0185)
 
 ### Personal Communication Systems, Inc. (0810)
 * Personal Communication Systems, Inc. Twin USB Gamepad; USB (0810:e301)
