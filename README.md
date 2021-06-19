@@ -44,7 +44,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * 8Bitdo N30 Arcade
 * 8Bitdo ZERO
 * 8Bitdo Retro-Bit xRB8-64
-* 8BitDo Pro 2; Bluetooth; USB
+* 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
 
 ### Alpha Imaging Technology Corp. (114d)
 * VR Set (114d:8a12)
