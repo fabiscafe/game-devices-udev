@@ -106,8 +106,8 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### PowerA (20d6)
 * PowerA Wired Controller for Nintendo Switch; USB (20d6:a711)
-* PowerA Zelda Wired controller for Nintendo Switch; USB (20d6:a713)
 * PowerA Wireless Controller for Nintendo Switch; bluetooth (NA:NA)
+* PowerA Zelda Wired Controller for Nintendo Switch; USB (20d6:a713)
 
 ### Razer (1532)
 * Razer Raiju PS4 Controller (1532:1000)
