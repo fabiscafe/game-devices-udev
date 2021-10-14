@@ -141,10 +141,10 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * Unknown-VR (28de:2300)
 * Unknown-VR (28de:2301)
 
-### Zeroplus Technology Corporation
+### Zeroplus Technology Corporation (0c12)
 * Armor PS4 Armor 3 Pad; USB (0c12:0e10)
 * EMiO PS4 Elite Controller; USB (0c12:1cf6)
+* Hit Box Arcade HIT BOX PS4/PC version; USB (0c12:0ef6)
 * Nyko Xbox Controller; USB (0c12:8801)
 * Unknown-Brand Xbox Controller; USB (0c12:8802)
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
-* Zeroplus Technology Corporation P4 (hitbox) (0c12:0ef6) #disabled for now
