@@ -40,6 +40,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * 8Bitdo N30 Pro
 * 8Bitdo SF30 Pro
 * 8Bitdo SN30 Pro
+* 8BitDo SN30 Pro+; Bluetooth; USB
 * 8Bitdo F30 Arcade
 * 8Bitdo N30 Arcade
 * 8Bitdo ZERO
@@ -149,3 +150,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * Nyko Xbox Controller; USB (0c12:8801)
 * Unknown-Brand Xbox Controller; USB (0c12:8802)
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
+
+## Known Issues
+### 8Bitdo SN30 Pro+
+In Android mode (START+B), if connected via cable the controller starts up, but gets removed by the kernel in most cases again. This does not happen all the time and there is nothing udev can do about.
