@@ -117,7 +117,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### Sony (054c)
 * Sony PlayStation Strikepack; USB (054c:05c5)
-* Sony PlayStation DualShock 3; bluetooth; USB (054c:0268)
+* Sony PlayStation DualShock 3; bluetooth; USB + Motion Sensors (054c:0268)
 * Sony PlayStation DualShock 4; bluetooth; USB (054c:05c4)
 * Sony PlayStation DualShock 4 Slim; bluetooth; USB (054c:09cc)
 * Sony PlayStation DualShock 4 Wireless Adapter; USB (054c:0ba0)
