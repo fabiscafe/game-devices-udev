@@ -115,6 +115,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 ### Razer (1532)
 * Razer Raiju PS4 Controller (1532:1000)
 * Razer Panthera Arcade Stick (1532:0401)
+* Razer Raion PS4 Fightpad (1532:1100)
 
 ### Sony (054c)
 * Sony PlayStation Strikepack; USB (054c:05c5)
