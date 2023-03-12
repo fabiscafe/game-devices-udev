@@ -124,6 +124,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * Sony PlayStation DualShock 4 Slim; bluetooth; USB (054c:09cc)
 * Sony PlayStation DualShock 4 Wireless Adapter; USB (054c:0ba0)
 * Sony DualSense Wireless-Controller; bluetooth; USB (054c:0ce6)
+* Sony DualSense Edge Wireless-Controller; bluetooth; USB (054c:0df2)
 * PlayStation VR (054c:09af)
 
 ### Valve (28de)
