@@ -10,7 +10,7 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0066", MODE="0660
 # Hori HORIPAD S; USB
 KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="00c1", MODE="0660", TAG+="uaccess"
 
-# Hori HORI POKKEN CONTROLLER; USB
+# Hori POKKEN CONTROLLER; USB
 KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0092", MODE="0660", TAG+="uaccess"
 
 # Hori Nintendo Switch HORIPAD Wired Controller; USB
