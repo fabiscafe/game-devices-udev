@@ -63,6 +63,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * Hori HORIPAD 4 FPS Plus (0f0d:0066)
 * Hori HORIPAD S; USB (0f0d:00c1)
 * Hori Nintendo Switch HORIPAD Wired Controller; USB (0f0d:00c1)
+* Hori Pokkén Tournament DX Pro Pad for Nintendo Switch; USB (0f0d:0092)
 
 ### HTC (0bb4)
 * Unknown (0bb4:2c87)
