@@ -94,6 +94,8 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 ### Nintendo (057e)
 * Nintendo Switch Pro Controller; bluetooth; USB (057e:2009)
 * Nintendo GameCube Controller / Adapter; USB (057e:0337)
+* Nintendo Switch Joy-Con (L); bluetooth (057e:2006)
+* Nintendo Switch Joy-Con (R); bluetooth (057e:2007)
 
 ### NVIDIA (0955)
 * NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only) (0955:7203)
