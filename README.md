@@ -2,7 +2,6 @@
 This repo contains udev rules to make supported controllers available with user-grade permissions
 
 ## How to set it up?
-Thats easy!
 
 ### Archlinux
 There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)←
