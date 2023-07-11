@@ -57,7 +57,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * Betop PS4 Fun Controller (11c0:4001)
 
 ### Google (18d1)
-* Google Stadia Controller; USB; Bluetooth (18d1:9400)
+* Google Stadia Controller; Bluetooth; USB (18d1:9400)
 
 ### Hori (0f0d)
 * Hori RAP4 (0f0d:008a)
