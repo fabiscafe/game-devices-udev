@@ -86,9 +86,9 @@ In case you have a working rule and want to get it merged you're free to do this
 * Mad Catz Street Fighter V Arcade FightStick TE S+ (0738:8384)
 
 ### Microsoft (045e)
-Microsoft Xbox360 Controller; USB (045e:028e) #EXPERIMENTAL
-Microsoft Xbox 360 Wireless Receiver for Windows; USB (045e:0719)
-Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
+* Microsoft Xbox360 Controller; USB (045e:028e) #EXPERIMENTAL
+* Microsoft Xbox 360 Wireless Receiver for Windows; USB (045e:0719)
+* Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### Nacon (146b)
 * Nacon PS4 Revolution Pro Controller (146b:0d01)
@@ -105,7 +105,7 @@ Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); Bluetooth (0955:7214)
 * NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB (0955:7210)
 
-### PDP (0e6f)
+### Performance Designed Products LLC [PDP] (0e6f)
 * PDP Afterglow Deluxe+ Wired Controller; USB (0e6f:0188)
 * PDP Nintendo Switch Faceoff Wired Pro Controller; USB (0e6f:0180)
 * PDP Wired Fight Pad Pro for Nintendo Switch; USB (0e6f:0185)
