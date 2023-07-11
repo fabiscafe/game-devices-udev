@@ -57,7 +57,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * Betop PS4 Fun Controller (11c0:4001)
 
 ### Google (18d1)
-* Google Stadia Controller; USB; bluetooth (18d1:9400)
+* Google Stadia Controller; USB; Bluetooth (18d1:9400)
 
 ### Hori (0f0d)
 * Hori RAP4 (0f0d:008a)
@@ -88,21 +88,21 @@ In case you have a working rule and want to get it merged you're free to do this
 ### Microsoft (045e)
 Microsoft Xbox360 Controller; USB (045e:028e) #EXPERIMENTAL
 Microsoft Xbox 360 Wireless Receiver for Windows; USB (045e:0719)
-Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
+Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### Nacon (146b)
 * Nacon PS4 Revolution Pro Controller (146b:0d01)
 
 ### Nintendo (057e)
-* Nintendo Switch Pro Controller; bluetooth; USB (057e:2009)
+* Nintendo Switch Pro Controller; Bluetooth; USB (057e:2009)
 * Nintendo GameCube Controller / Adapter; USB (057e:0337)
 * Nintendo Switch Joy-Con Charging Grip (057e:200e)
-* Nintendo Switch Joy-Con (L); bluetooth (057e:2006)
-* Nintendo Switch Joy-Con (R); bluetooth (057e:2007)
+* Nintendo Switch Joy-Con (L); Bluetooth (057e:2006)
+* Nintendo Switch Joy-Con (R); Bluetooth (057e:2007)
 
 ### NVIDIA (0955)
 * NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only) (0955:7203)
-* NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); bluetooth (0955:7214)
+* NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); Bluetooth (0955:7214)
 * NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB (0955:7210)
 
 ### PDP (0e6f)
@@ -115,7 +115,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### PowerA (20d6)
 * PowerA Wired Controller for Nintendo Switch; USB (20d6:a711)
-* PowerA Wireless Controller for Nintendo Switch; bluetooth (NA:NA)
+* PowerA Wireless Controller for Nintendo Switch; Bluetooth (NA:NA)
 * PowerA Zelda Wired Controller for Nintendo Switch; USB (20d6:a713)
 
 ### Razer (1532)
@@ -125,18 +125,18 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 
 ### Sony (054c)
 * Sony PlayStation Strikepack; USB (054c:05c5)
-* Sony PlayStation DualShock 3; bluetooth; USB + Motion Sensors (054c:0268)
-* Sony PlayStation DualShock 4; bluetooth; USB (054c:05c4)
-* Sony PlayStation DualShock 4 Slim; bluetooth; USB (054c:09cc)
+* Sony PlayStation DualShock 3; Bluetooth; USB + Motion Sensors (054c:0268)
+* Sony PlayStation DualShock 4; Bluetooth; USB (054c:05c4)
+* Sony PlayStation DualShock 4 Slim; Bluetooth; USB (054c:09cc)
 * Sony PlayStation DualShock 4 Wireless Adapter; USB (054c:0ba0)
-* Sony DualSense Wireless-Controller; bluetooth; USB (054c:0ce6)
-* Sony DualSense Edge Wireless-Controller; bluetooth; USB (054c:0df2)
+* Sony DualSense Wireless-Controller; Bluetooth; USB (054c:0ce6)
+* Sony DualSense Edge Wireless-Controller; Bluetooth; USB (054c:0df2)
 * PlayStation VR (054c:09af)
 
 ### Valve (28de)
 * Valve USB devices (28de:*)
 * Valve Steam Controller (28de:*)
-* Valve HID devices; bluetooth; USB (28de:*)
+* Valve HID devices; Bluetooth; USB (28de:*)
 * Unknown-VR (28de:1043)
 * Unknown-VR (28de:1142)
 * Unknown-VR (28de:2000)

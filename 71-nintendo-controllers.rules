@@ -1,4 +1,4 @@
-# Nintendo Switch Pro Controller; bluetooth; USB
+# Nintendo Switch Pro Controller; Bluetooth; USB
 KERNEL=="hidraw*", KERNELS=="*057E:2009*", MODE="0660", TAG+="uaccess"
 KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2009", MODE="0660", TAG+="uaccess"
 # Grand access for some userspace tools, if connected via USB
@@ -10,10 +10,10 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idP
 # Nintendo Switch Joy-Con Charging Grip; USB
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="200e", MODE="0660", TAG+="uaccess"
 
-# Nintendo Switch Joy-Con (L); bluetooth
+# Nintendo Switch Joy-Con (L); Bluetooth
 KERNEL=="hidraw*", KERNELS=="*057E:2006*", MODE="0660", TAG+="uaccess"
 KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2006", MODE="0660", TAG+="uaccess"
 
-# Nintendo Switch Joy-Con (R); bluetooth
+# Nintendo Switch Joy-Con (R); Bluetooth
 KERNEL=="hidraw*", KERNELS=="*057E:2007*", MODE="0660", TAG+="uaccess"
 KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2007", MODE="0660", TAG+="uaccess"

@@ -4,7 +4,7 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a711", MODE="0660
 # PowerA Zelda Wired Controller for Nintendo Switch; USB
 KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a713", MODE="0660", TAG+="uaccess"
 
-# PowerA Wireless Controller for Nintendo Switch; bluetooth
+# PowerA Wireless Controller for Nintendo Switch; Bluetooth
 # We have to use ATTRS{name} since VID/PID are reported as zeros.
 # We use /bin/sh instead of udevadm directly becuase we need to
 # use '*' glob at the end of "hidraw" name since we don't know the index it'd have.
