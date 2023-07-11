@@ -164,3 +164,7 @@ Microsoft Xbox One S Controller; bluetooth; USB (045e:02ea) #EXPERIMENTAL
 ## Known Issues
 ### 8Bitdo SN30 Pro+
 In Android mode (START+B), if connected via cable the controller starts up, but gets removed by the kernel in most cases again. This does not happen all the time and there is nothing udev can do about.
+
+## Related Projects
+* [udev-joystick-blacklist](https://github.com/denilsonsa/udev-joystick-blacklist) - Fix for keyboard/mouse/tablet being detected as joystick in Linux.
+* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR will want read/write permissions on.
