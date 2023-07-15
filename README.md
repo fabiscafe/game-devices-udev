@@ -6,6 +6,24 @@ This repo contains udev rules to make supported controllers available with user-
 ### Archlinux
 There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)←
 
+### NixOS
+Install the rules under `services.udev.packages` in the `configuration.nix` file.
+1. Add the following to your `configuration.nix`
+>``` nix
+>services = {
+>  udev = {
+>    packages = with pkgs; [
+>      game-devices-udev-rules
+>    ];
+>  };
+>};
+>```
+2. (Optional) Add the following to your `configuration.nix`
+> ``` nix 
+> hardware.uinput.enable = true;
+> ```
+3. Rebuild the system with `nixos-rebuild`
+
 ### Others:
 1. Download the [archive](https://codeberg.org/fabiscafe/game-devices-udev/archive/main.zip)
 2. extract
