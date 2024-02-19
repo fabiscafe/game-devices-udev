@@ -64,6 +64,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * 8Bitdo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
 * 8BitDo Pro 2 Wired; USB (2dc8:3106), (2dc8:3010) ([Setup Instructions](8BitDo.md))
+* 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
 
 ### Alpha Imaging Technology Corp. (114d)
 * VR Set (114d:8a12)
