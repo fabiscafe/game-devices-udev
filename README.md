@@ -6,6 +6,24 @@ This repo contains udev rules to make supported controllers available with user-
 ### Archlinux
 There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)←
 
+### NixOS
+Install the rules under `services.udev.packages` in the `configuration.nix` file.
+1. Add the following to your `configuration.nix`
+>``` nix
+>services = {
+>  udev = {
+>    packages = with pkgs; [
+>      game-devices-udev-rules
+>    ];
+>  };
+>};
+>```
+2. (Optional) Add the following to your `configuration.nix`
+> ``` nix 
+> hardware.uinput.enable = true;
+> ```
+3. Rebuild the system with `nixos-rebuild`
+
 ### Others:
 1. Download the [archive](https://codeberg.org/fabiscafe/game-devices-udev/archive/main.zip)
 2. extract
@@ -46,6 +64,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * 8Bitdo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
 * 8BitDo Pro 2 Wired; USB (2dc8:3106), (2dc8:3010) ([Setup Instructions](8BitDo.md))
+* 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
 
 ### Alpha Imaging Technology Corp. (114d)
 * VR Set (114d:8a12)
