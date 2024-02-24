@@ -114,8 +114,7 @@ In case you have a working rule and want to get it merged you're free to do this
 * Personal Communication Systems, Inc. Twin USB Gamepad; USB (0810:e301)
 
 ### Pid.Codes (1209)
-* EdgeTX Generic [radio controller] Joystick; USB (1209:4f54)
-* OpenTX Generic [radio controller] Joystick; USB (1209:4f54)
+* EdgeTX, OpenTX Generic [radio controller] Joystick; USB (1209:4f54)
 
 ### PowerA (20d6)
 * PowerA Wired Controller for Nintendo Switch; USB (20d6:a711)
