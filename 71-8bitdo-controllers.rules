@@ -54,3 +54,7 @@ SUBSYSTEMS=="input", ATTRS{id/product}=="3010", ATTRS{id/vendor}=="2dc8", ENV{ID
 
 # 8BitDo Ultimate Wired Controller for Xbox; USB
 SUBSYSTEM=="usb", ATTR{idProduct}=="2003", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8bitdo Universal; USB
+## B-Mode
+SUBSYSTEM=="usb", ATTR{idProduct}=="6007", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
