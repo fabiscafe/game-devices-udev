@@ -75,6 +75,9 @@ In case you have a working rule and want to get it merged you're free to do this
 ### Betop (11c0)
 * Betop PS4 Fun Controller (11c0:4001)
 
+### Cypress Semiconductor Corp. [+Flydigi] (04b4)
+* Flydigi Apex 4 Controller; Bluetooth; USB (04b4:2412)
+
 ### Google (18d1)
 * Google Stadia Controller; Bluetooth; USB (18d1:9400)
 
