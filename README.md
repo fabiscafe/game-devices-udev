@@ -57,6 +57,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 ## Supported Devices
 
 ### 8BitDo (2dc8)
+* 8BitDo Generic Device; (2dc8:3106)
 * 8BitDo F30 P1
 * 8BitDo F30 P2
 * 8BitDo N30
@@ -75,7 +76,6 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * 8BitDo Pro 2 Wired; USB (2dc8:3010) ([Setup Instructions](8BitDo.md))
 * 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
 * 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3012)
-* 8BitDo Generic Device; (2dc8:3106)
 * 8BitDo Ultimate 2C Wireless Controller; USB/2.4GHz (2dc8:310a)
 * 8BitDo Arcade Stick; Bluetooth (X-mode)
 
