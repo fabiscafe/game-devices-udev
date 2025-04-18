@@ -56,7 +56,6 @@ SUBSYSTEMS=="input", ATTRS{id/product}=="3010", ATTRS{id/vendor}=="2dc8", ENV{ID
 SUBSYSTEM=="usb", ATTR{idProduct}=="2003", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
 # 8BitDo Ultimate 2.4G Wireless  Controller; USB/2.4Ghz
-# X-mode
-SUBSYSTEM=="usb", ATTR{idProduct}=="3106 ", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+# X-mode uses the same vendor/product as 8BitDo Pro 2 Wired
 # D-mode
-SUBSYSTEM=="usb", ATTR{idProduct}=="3012 ", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idProduct}=="3012", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
