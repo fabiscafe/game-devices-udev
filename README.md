@@ -35,17 +35,25 @@ Install the rules under `services.udev.packages` in the `configuration.nix` file
 If everything was right, it should work now!
 
 ## Add my device!
-### We need you help!
-In order to create an udev rule, we need some infos
-* Excact name (from the box, for example. Best case with a model-number)
-* Output of `udevadm monitor --property` (You need to disconnect the device before running the command)
-* Output of the device directly, like in `devadm info --query=all --attribute-walk --name=/dev/input/js0` or `udevadm info --query=all --attribute-walk --name=/dev/input/js1`
-
-### Merge Request
-In case you have a working rule and want to get it merged you're free to do this. Please do one MR for every device you want to add. Also do not forget to update the README.md with the device name. Format:
+### Create a pull/merge request!
+Please create a pull request with your verified-working-rule, one rule per device. Also do not forget to include the README.md change, with the device name format:
 ```
 # [VENDOR] [MARKETING-DEVICE-NAME]; {CONNECTION-TYPE}; {CONNECTION-TYPE} (VendorID:ProductID)
 ```
+### Need help writing a rule?
+If you're having trouble, consider reaching out to a Linux community for assistance. Here are some helpful steps to gather information:
+
+1. **Device Information**: Provide the exact (marketing-) name and model number of your device, this is also needed for the README.md.
+2. **Monitor Device Events**: Run the following command before connecting or disconnecting your device to capture its information:
+   ```bash
+   udevadm monitor --property
+   ```
+3. **Device Details**: Use the following command to get detailed information about your device:
+   ```bash
+   udevadm info --query=all --attribute-walk --name=/dev/input/js0
+   # /dev/input/js0 is the path of your device, it could also be /dev/input/js1 or something else
+   ```
+
 ## Supported Devices
 ### 8Bitdo (2dc8)
 * 8Bitdo F30 P1
