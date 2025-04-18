@@ -1,44 +1,44 @@
-# 8Bitdo F30 P1
+# 8BitDo F30 P1
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo F30 P2
+# 8BitDo F30 P2
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 II", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo N30
+# 8BitDo N30
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo NES30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo SF30
+# 8BitDo SF30
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SFC30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo SN30
+# 8BitDo SN30
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SNES30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo F30 Pro
+# 8BitDo F30 Pro
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo N30 Pro
+# 8BitDo N30 Pro
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo NES30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo SF30 Pro
+# 8BitDo SF30 Pro
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SF30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo SN30 Pro
+# 8BitDo SN30 Pro
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SN30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
 # 8BitDo SN30 Pro+; Bluetooth; USB
 SUBSYSTEM=="input", ATTRS{name}=="8BitDo SN30 Pro+", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SF30 Pro   8BitDo SN30 Pro+", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo F30 Arcade
+# 8BitDo F30 Arcade
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo Joy", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo N30 Arcade
+# 8BitDo N30 Arcade
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo NES30 Arcade", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo ZERO
+# 8BitDo ZERO
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo Zero GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8Bitdo Retro-Bit xRB8-64
+# 8BitDo Retro-Bit xRB8-64
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo N64 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
 # 8BitDo Pro 2; Bluetooth; USB
@@ -55,7 +55,7 @@ SUBSYSTEMS=="input", ATTRS{id/product}=="3010", ATTRS{id/vendor}=="2dc8", ENV{ID
 # 8BitDo Ultimate Wired Controller for Xbox; USB
 SUBSYSTEM=="usb", ATTR{idProduct}=="2003", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
-# 8BitDo Ultimate 2.4G Wireless  Controller; USB/2.4Ghz
+# 8BitDo Ultimate 2.4G Wireless  Controller; USB/2.4GHz
 # X-mode uses the same vendor/product as 8BitDo Pro 2 Wired
 # D-mode
 SUBSYSTEM=="usb", ATTR{idProduct}=="3012", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"

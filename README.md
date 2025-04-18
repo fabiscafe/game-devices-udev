@@ -1,49 +1,49 @@
 # game-devices-udev
-This repo contains udev rules to make supported controllers available with user-grade permissions
+This repo contains udev rules to make supported controllers available with user-grade permissions.
 
 ## How to set it up?
 
-### Archlinux
-There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/)←
+### Arch Linux
+There is an [AUR package](https://aur.archlinux.org/packages/game-devices-udev/).
 
 ### NixOS
 Install the rules under `services.udev.packages` in the `configuration.nix` file.
-1. Add the following to your `configuration.nix`
->``` nix
->services = {
->  udev = {
->    packages = with pkgs; [
->      game-devices-udev-rules
->    ];
->  };
->};
->```
-2. (Optional) Add the following to your `configuration.nix`
-> ``` nix 
-> hardware.uinput.enable = true;
-> ```
-3. Rebuild the system with `nixos-rebuild`
+1. Add the following to your `configuration.nix`:
+   ```nix
+   services = {
+     udev = {
+       packages = with pkgs; [
+         game-devices-udev-rules
+       ];
+     };
+   };
+   ```
+2. (Optional) Add the following to your `configuration.nix`:
+   ```nix
+   hardware.uinput.enable = true;
+   ```
+3. Rebuild the system with `nixos-rebuild`.
 
 ### Others:
-1. Download the [archive](https://codeberg.org/fabiscafe/game-devices-udev/archive/main.zip)
-2. extract
-3. copy all the rule files to `/etc/udev/rules.d`
-4. create another file: `/etc/modules-load.d/uinput.conf`
-5. put `uinput` into that file
-6. reboot
+1. Download the [archive](https://codeberg.org/fabiscafe/game-devices-udev/archive/main.zip).
+2. Extract the archive.
+3. Copy all the rule files to `/etc/udev/rules.d`.
+4. Create another file: `/etc/modules-load.d/uinput.conf`.
+5. Put `uinput` into that file.
+6. Reboot.
 
-If everything was right, it should work now!
+If everything was done correctly, it should work now!
 
-## Add my device!
-### Create a pull/merge request!
-Please create a pull request with your verified-working-rule, one rule per device. Also do not forget to include the README.md change, with the device name format:
+## Add My Device!
+### Create a Pull/Merge Request!
+Please create a pull request with your verified working rule, one rule per device. Also, do not forget to include the README.md change, with the device name format:
 ```
 # [VENDOR] [MARKETING-DEVICE-NAME]; {CONNECTION-TYPE}; {CONNECTION-TYPE} (VendorID:ProductID)
 ```
-### Need help writing a rule?
+### Need Help Writing a Rule?
 If you're having trouble, consider reaching out to a Linux community for assistance. Here are some helpful steps to gather information:
 
-1. **Device Information**: Provide the exact (marketing-) name and model number of your device, this is also needed for the README.md.
+1. **Device Information**: Provide the exact (marketing) name and model number of your device; this is also needed for the README.md.
 2. **Monitor Device Events**: Run the following command before connecting or disconnecting your device to capture its information:
    ```bash
    udevadm monitor --property
@@ -51,29 +51,30 @@ If you're having trouble, consider reaching out to a Linux community for assista
 3. **Device Details**: Use the following command to get detailed information about your device:
    ```bash
    udevadm info --query=all --attribute-walk --name=/dev/input/js0
-   # /dev/input/js0 is the path of your device, it could also be /dev/input/js1 or something else
+   # /dev/input/js0 is the path of your device; it could also be /dev/input/js1 or something else.
    ```
 
 ## Supported Devices
-### 8Bitdo (2dc8)
-* 8Bitdo F30 P1
-* 8Bitdo F30 P2
-* 8Bitdo N30
-* 8Bitdo SF30
-* 8Bitdo SN30
-* 8Bitdo F30 Pro
-* 8Bitdo N30 Pro
-* 8Bitdo SF30 Pro
-* 8Bitdo SN30 Pro
+
+### 8BitDo (2dc8)
+* 8BitDo F30 P1
+* 8BitDo F30 P2
+* 8BitDo N30
+* 8BitDo SF30
+* 8BitDo SN30
+* 8BitDo F30 Pro
+* 8BitDo N30 Pro
+* 8BitDo SF30 Pro
+* 8BitDo SN30 Pro
 * 8BitDo SN30 Pro+; Bluetooth; USB
-* 8Bitdo F30 Arcade
-* 8Bitdo N30 Arcade
-* 8Bitdo ZERO
-* 8Bitdo Retro-Bit xRB8-64
+* 8BitDo F30 Arcade
+* 8BitDo N30 Arcade
+* 8BitDo ZERO
+* 8BitDo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
 * 8BitDo Pro 2 Wired; USB (2dc8:3106), (2dc8:3010) ([Setup Instructions](8BitDo.md))
 * 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
-* 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4Ghz (2dc8:3106), (2dc8:3012)
+* 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3106), (2dc8:3012)
 
 ### Alpha Imaging Technology Corp. (114d)
 * VR Set (114d:8a12)
@@ -115,7 +116,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Mad Catz Street Fighter V Arcade FightStick TE S+ (0738:8384)
 
 ### Microsoft (045e)
-* Microsoft Xbox360 Controller; USB (045e:028e) #EXPERIMENTAL
+* Microsoft Xbox 360 Controller; USB (045e:028e) #EXPERIMENTAL
 * Microsoft Xbox 360 Wireless Receiver for Windows; USB (045e:0719)
 * Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * Microsoft Xbox One Controller; Bluetooth; USB (045e:02fd)
@@ -194,7 +195,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
 
 ## Known Issues
-### 8Bitdo SN30 Pro+
+### 8BitDo SN30 Pro+
 In Android mode (START+B), if connected via cable the controller starts up, but gets removed by the kernel in most cases again. This does not happen all the time and there is nothing udev can do about.
 
 ## Related Projects
