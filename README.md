@@ -72,9 +72,10 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * 8BitDo ZERO
 * 8BitDo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
-* 8BitDo Pro 2 Wired; USB (2dc8:3106), (2dc8:3010) ([Setup Instructions](8BitDo.md))
+* 8BitDo Pro 2 Wired; USB (2dc8:3010) ([Setup Instructions](8BitDo.md))
 * 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
-* 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3106), (2dc8:3012)
+* 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3012)
+* 8BitDo Generic Device; (2dc8:3106)
 
 ### Alpha Imaging Technology Corp. (114d)
 * VR Set (114d:8a12)
