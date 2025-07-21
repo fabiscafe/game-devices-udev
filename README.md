@@ -159,6 +159,12 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * PowerA Wireless Controller for Nintendo Switch; Bluetooth (NA:NA)
 * PowerA Zelda Wired Controller for Nintendo Switch; USB (20d6:a713)
 
+### Raspberry Pi, Ltd. (2e8a)
+* Hand Held Legend Generic SInput Device; Bluetooth; USB (2e8a:10c6)
+* Hand Held Legend ProGCC in SInput Mode; Bluetooth; USB (2e8a:10df)
+* Hand Held Legend GC Ultimate in SInput Mode; Bluetooth; USB (2e8a:10dd)
+* Bonjiri Channel Firebird in SInput Mode; USB (2e8a:10e0)
+
 ### Razer (1532)
 * Razer Raiju PS4 Controller (1532:1000)
 * Razer Panthera Arcade Stick (1532:0401)
