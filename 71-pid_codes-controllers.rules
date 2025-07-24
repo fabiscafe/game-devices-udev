@@ -1,2 +1,2 @@
 # EdgeTX, OpenTX Generic [radio controller] Joystick; USB
-KERNEL=="hidraw*", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="4f54", MODE="0660" TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="4f54", MODE="0660", TAG+="uaccess"
