@@ -11,4 +11,4 @@
 ## before the uinput kernel module has even been loaded.
 ## https://github.com/ValveSoftware/steam-for-linux/issues/4794#issuecomment-327006061
 
-KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
+ACTION!="remove", KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
