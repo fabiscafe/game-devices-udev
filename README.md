@@ -194,6 +194,9 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Unknown-VR (28de:2300)
 * Unknown-VR (28de:2301)
 
+### VKBSim (231d)
+* VKBsim Gladiator NXT R; USB (231d:0200)
+
 ### Zeroplus Technology Corporation (0c12)
 * Armor PS4 Armor 3 Pad; USB (0c12:0e10)
 * EMiO PS4 Elite Controller; USB (0c12:1cf6)
