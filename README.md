@@ -73,6 +73,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * 8BitDo ZERO
 * 8BitDo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
+* 8BitDo Pro 3; Bluetooth; USB/2.4Ghz (2dc8:6009)
 * 8BitDo Pro 2 Wired; USB (2dc8:3010) ([Setup Instructions](8BitDo.md))
 * 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
 * 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3012)
@@ -212,6 +213,9 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
 
 ## Known Issues
+### 8BitDo Pro 3
+X-Mode keeps forcing S-mode (Nintendo Switch Pro Controller emulation) for some reason, recommended to use D-Mode with Bluetooth instead.
+
 ### 8BitDo SN30 Pro+
 In Android mode (START+B), if connected via cable the controller starts up, but gets removed by the kernel in most cases again. This does not happen all the time and there is nothing udev can do about.
 
