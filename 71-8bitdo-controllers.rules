@@ -56,6 +56,11 @@ ACTION!="remove", SUBSYSTEM=="input", ATTR{id/vendor}=="2dc8", ATTR{id/product}=
 ACTION!="remove", SUBSYSTEM=="usb", ATTR{idProduct}=="3010", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 ACTION!="remove", SUBSYSTEMS=="input", ATTRS{id/product}=="3010", ATTRS{id/vendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
+# 8BitDo Pro 3; Bluetooth; USB/2.4Ghz
+# D-Mode
+ACTION!="remove", SUBSYSTEM=="input", ATTRS{name}=="8BitDo Pro 3", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+ACTION!="remove", SUBSYSTEM=="input", ATTR{id/vendor}=="2dc8", ATTR{id/product}=="6009", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
 # 8BitDo Ultimate Wired Controller for Xbox; USB
 ACTION!="remove", SUBSYSTEM=="usb", ATTR{idProduct}=="2003", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
 
