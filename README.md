@@ -74,7 +74,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * 8BitDo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
 * 8BitDo Pro 3; Bluetooth; USB/2.4Ghz (2dc8:6009)
-* 8BitDo Pro 2 Wired; USB (2dc8:3010) ([Setup Instructions](8BitDo.md))
+* 8BitDo Pro 2 Wired; USB (2dc8:3010) (Setup instructions in 'Known Issues')
 * 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
 * 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3012)
 * 8BitDo Ultimate 2C Wireless Controller; USB/2.4GHz (2dc8:310a)
@@ -218,6 +218,14 @@ X-Mode keeps forcing S-mode (Nintendo Switch Pro Controller emulation) for some 
 
 ### 8BitDo SN30 Pro+
 In Android mode (START+B), if connected via cable the controller starts up, but gets removed by the kernel in most cases again. This does not happen all the time and there is nothing udev can do about.
+
+### 8BitDo Pro 2 Wired
+#### B-Mode
+This is the only working mode on Linux. To use it you need to hold "B" **every time** you connect the controller or reboot the PC. Otherwise it'll start in Y-Mode and wont work.
+
+#### Steam
+B-Mode works with steam-input. It is however **important** that you set up the controller as **Generic Gamepad**
+It will ***not*** work if it's set up as X-Box Controller (thats default)
 
 ## Related Projects
 * [udev-joystick-blacklist](https://github.com/denilsonsa/udev-joystick-blacklist) - Fix for keyboard/mouse/tablet being detected as joystick in Linux.
