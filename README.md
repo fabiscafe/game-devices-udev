@@ -27,7 +27,7 @@ Install the rules under `services.udev.packages` in the `configuration.nix` file
 ### Others:
 1. Download the [archive](https://codeberg.org/fabiscafe/game-devices-udev/archive/main.zip).
 2. Extract the archive.
-3. Copy all the rule files to `/etc/udev/rules.d`.
+3. Copy all the rule files (you need) from src to `/etc/udev/rules.d`.
 4. Create another file: `/etc/modules-load.d/uinput.conf`.
 5. Put `uinput` into that file.
 6. Reboot.
@@ -35,8 +35,8 @@ Install the rules under `services.udev.packages` in the `configuration.nix` file
 If everything was done correctly, it should work now!
 
 ## Add My Device!
-### Create a Pull/Merge Request!
-Please create a pull request with your verified working rule, one rule per device. Also, do not forget to include the README.md change, with the device name format:
+### Create a Pull/Merge Request! (PR)
+Please create a PR with your verified, working rule. Every device should have its own PR. Do not forget to add your device to the README.md in this format:
 ```
 # [VENDOR] [MARKETING-DEVICE-NAME]; {CONNECTION-TYPE}; {CONNECTION-TYPE} (VendorID:ProductID)
 ```
@@ -221,4 +221,4 @@ In Android mode (START+B), if connected via cable the controller starts up, but 
 
 ## Related Projects
 * [udev-joystick-blacklist](https://github.com/denilsonsa/udev-joystick-blacklist) - Fix for keyboard/mouse/tablet being detected as joystick in Linux.
-* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR will want read/write permissions on.
+* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR expects read/write permissions on.
