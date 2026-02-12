@@ -10,7 +10,7 @@ src_dir = meson.project_source_root() / 'src'
 # Get the priority prefix
 udev_priority = get_option('udev_priority')
 
-# Map src_files to option names 
+# Map src_files to option names
 # form: {'source-file' : 'option-names'}
 rules_map = {
   '8bitdo-gdu.rules' : '8bitdo',
@@ -52,8 +52,8 @@ foreach src_file, optname : rules_map
     prefixed_file = udev_priority.to_string() + '-' + src_file
 
     install_data(
-      src_path, 
-      install_dir: udev_dir, 
+      src_path,
+      install_dir: udev_dir,
       rename: prefixed_file
     )
 
