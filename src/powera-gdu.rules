@@ -1,6 +1,9 @@
 # PowerA Wired Controller for Nintendo Switch; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a711", MODE="0660", TAG+="uaccess"
 
+# PowerA Nintendo Switch Enhanced Wireless Controller; USB
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a712", MODE="0660", TAG+="uaccess"
+
 # PowerA Zelda Wired Controller for Nintendo Switch; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a713", MODE="0660", TAG+="uaccess"
 
