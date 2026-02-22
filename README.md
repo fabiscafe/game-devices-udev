@@ -27,7 +27,7 @@ Install the rules under `services.udev.packages` in the `configuration.nix` file
 ### Others:
 1. Download the [archive](https://codeberg.org/fabiscafe/game-devices-udev/archive/main.zip).
 2. Extract the archive.
-3. Copy all the rule files to `/etc/udev/rules.d`.
+3. Copy all the rule files (you need) from src to `/etc/udev/rules.d`.
 4. Create another file: `/etc/modules-load.d/uinput.conf`.
 5. Put `uinput` into that file.
 6. Reboot.
@@ -35,8 +35,8 @@ Install the rules under `services.udev.packages` in the `configuration.nix` file
 If everything was done correctly, it should work now!
 
 ## Add My Device!
-### Create a Pull/Merge Request!
-Please create a pull request with your verified working rule, one rule per device. Also, do not forget to include the README.md change, with the device name format:
+### Create a Pull/Merge Request! (PR)
+Please create a PR with your verified, working rule. Every device should have its own PR. Do not forget to add your device to the README.md in this format:
 ```
 # [VENDOR] [MARKETING-DEVICE-NAME]; {CONNECTION-TYPE}; {CONNECTION-TYPE} (VendorID:ProductID)
 ```
@@ -74,7 +74,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * 8BitDo Retro-Bit xRB8-64
 * 8BitDo Pro 2; Bluetooth; USB (2dc8:6003)
 * 8BitDo Pro 3; Bluetooth; USB/2.4Ghz (2dc8:6009)
-* 8BitDo Pro 2 Wired; USB (2dc8:3010) ([Setup Instructions](8BitDo.md))
+* 8BitDo Pro 2 Wired; USB (2dc8:3010) (Setup instructions in 'Known Issues')
 * 8BitDo Ultimate Wired Controller for Xbox; USB (2dc8:2003)
 * 8BitDo Ultimate 2.4G Wireless Controller; USB/2.4GHz (2dc8:3012)
 * 8BitDo Ultimate 2C Wireless Controller; USB/2.4GHz (2dc8:310a)
@@ -219,6 +219,14 @@ X-Mode keeps forcing S-mode (Nintendo Switch Pro Controller emulation) for some 
 ### 8BitDo SN30 Pro+
 In Android mode (START+B), if connected via cable the controller starts up, but gets removed by the kernel in most cases again. This does not happen all the time and there is nothing udev can do about.
 
+### 8BitDo Pro 2 Wired
+#### B-Mode
+This is the only working mode on Linux. To use it you need to hold "B" **every time** you connect the controller or reboot the PC. Otherwise it'll start in Y-Mode and wont work.
+
+#### Steam
+B-Mode works with steam-input. It is however **important** that you set up the controller as **Generic Gamepad**
+It will ***not*** work if it's set up as X-Box Controller (thats default)
+
 ## Related Projects
 * [udev-joystick-blacklist](https://github.com/denilsonsa/udev-joystick-blacklist) - Fix for keyboard/mouse/tablet being detected as joystick in Linux.
-* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR will want read/write permissions on.
+* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR expects read/write permissions on.
