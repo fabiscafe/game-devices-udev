@@ -158,7 +158,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * EdgeTX, OpenTX Generic [radio controller] Joystick; USB (1209:4f54)
 
 ### PowerA (20d6)
-* PowerA Wired Controller for Nintendo Switch; USB (20d6:a711)
+* PowerA GameCube Style Wired Controller for Nintendo Switch; USB (20d6:a711)
 * PowerA Nintendo Switch Enhanced Wireless Controller; USB (20d6:a711)
 * PowerA Wireless Controller for Nintendo Switch; Bluetooth (NA:NA)
 * PowerA Zelda Wired Controller for Nintendo Switch; USB (20d6:a713)
