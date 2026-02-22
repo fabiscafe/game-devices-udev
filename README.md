@@ -128,6 +128,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Microsoft Xbox 360 Wireless Receiver for Windows; USB (045e:0719)
 * Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * Microsoft Xbox One Controller; Bluetooth; USB (045e:02fd)
+* Microsoft Xbox One Elite 2 Controller; Bluetooth (045e:0b22)
 
 ### Nacon (146b)
 * Nacon PS4 Revolution Pro Controller (146b:0d01)
