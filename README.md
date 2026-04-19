@@ -199,6 +199,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * PlayStation VR (054c:09af)
 
 ### ThrustMaster, Inc. (044f)
+* Thrustmaster T.16000M Joystick (044f:b10a)
 * Thrustmaster TFRP Rudder (044f:b679)
 * Thrustmaster TWCS Throttle (044f:b687)
 * Thrustmaster eSwap Pro (044f:d00e)
