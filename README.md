@@ -199,6 +199,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * PlayStation VR (054c:09af)
 
 ### ThrustMaster, Inc. (044f)
+* Thrustmaster TFRP Rudder (044f:b679)
 * Thrustmaster eSwap Pro (044f:d00e)
 
 ### Valve (28de)
