@@ -1,6 +1,11 @@
 # Razer Raiju PS4 Controller
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1000", MODE="0660", TAG+="uaccess"
 
+# Razer Raiju Ultimate USB
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1004", MODE="0660", TAG+="uaccess"
+# Bluetooth
+ACTION!="remove", KERNEL=="hidraw*", KERNELS=="*1532:1009*", MODE="0660", TAG+="uaccess"
+
 # Razer Raiju 2 Tournament Edition
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1007", MODE="0660", TAG+="uaccess"
 
