@@ -5,6 +5,7 @@ option('8bitdo', type: 'boolean', value: true, description: 'Install 8bitdo udev
 option('alpha_imaging_technology', type: 'boolean', value: true, description: 'Install alpha_imaging_technology udev rule')
 option('astro_gaming', type: 'boolean', value: true, description: 'Install astro_gaming udev rule')
 option('betop', type: 'boolean', value: true, description: 'Install betop udev rule')
+option('bigscreen', type: 'boolean', value: true, description: 'Install bigscreen udev rule')
 option('cypress_semiconductor_corp', type: 'boolean', value: true, description: 'Install cypress_semiconductor_corp udev rule')
 option('google', type: 'boolean', value: true, description: 'Install google udev rule')
 option('hori', type: 'boolean', value: true, description: 'Install hori udev rule')

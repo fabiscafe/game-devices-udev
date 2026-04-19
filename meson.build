@@ -17,6 +17,7 @@ rules_map = {
   'alpha_imaging_technology_co-gdu.rules' : 'alpha_imaging_technology',
   'astro_gaming-gdu.rules' : 'astro_gaming',
   'betop-gdu.rules' : 'betop',
+  'bigscreen-gdu.rules' : 'bigscreen',
   'cypress_semiconductor_corp-gdu.rules' : 'cypress_semiconductor_corp',
   'google-gdu.rules' : 'google',
   'hori-gdu.rules' : 'hori',
