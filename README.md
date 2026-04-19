@@ -175,6 +175,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 
 ### Razer (1532)
 * Razer Raiju PS4 Controller (1532:1000)
+* Razer Raiju 2 Tournament Edition (1532:1007)
 * Razer Panthera Arcade Stick (1532:0401)
 * Razer Raion PS4 Fightpad (1532:1100)
 
