@@ -4,6 +4,9 @@ ACTION!="remove", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="35bd
 # Bigscreen Beyond Audio Strap
 ACTION!="remove", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="35bd", ATTRS{idProduct}=="0105", MODE="0660", TAG+="uaccess"
 
+# Bigscreen Bigeye
+ACTION!="remove", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="35bd", ATTRS{idProduct}=="0202", MODE="0660", TAG+="uaccess"
+
 # Bigscreen Beyond Firmware Mode #EXPERIMENTAL
 ACTION!="remove", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="35bd", ATTRS{idProduct}=="4004", MODE="0660", TAG+="uaccess"
 
