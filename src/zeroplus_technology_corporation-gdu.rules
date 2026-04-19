@@ -18,3 +18,6 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}==
 
 # Unknown-Brand Xbox Controller; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8810", MODE="0660", TAG+="uaccess"
+
+# Brooks Universal Fighting Board; USB
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0c30", MODE="0660", TAG+="uaccess"

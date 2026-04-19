@@ -223,6 +223,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Nyko Xbox Controller; USB (0c12:8801)
 * Unknown-Brand Xbox Controller; USB (0c12:8802)
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
+* Brooks Universal Fighting Board; USB (0c12:0c30)
 
 ## Known Issues
 ### 8BitDo Pro 3
