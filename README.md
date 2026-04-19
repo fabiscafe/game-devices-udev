@@ -90,19 +90,30 @@ If you're having trouble, consider reaching out to a Linux community for assista
 ### Betop (11c0)
 * Betop PS4 Fun Controller (11c0:4001)
 
+### Bigscreen, Inc. (35bd)
+* Bigscreen Beyond (35bd:0101)
+* Bigscreen Beyond Audio Strap (35bd:0105)
+* Bigscreen Bigeye (35bd:0202)
+* Bigscreen Beyond Firmware Mode (35bd:4004) #EXPERIMENTAL
+
 ### Cypress Semiconductor Corp. [+Flydigi] (04b4)
 * Flydigi Apex 4 Controller; Bluetooth; USB (04b4:2412)
 
 ### Google (18d1)
 * Google Stadia Controller; Bluetooth; USB (18d1:9400)
 
-### Hori (0f0d)
-* Hori RAP4 (0f0d:008a)
-* Hori HORIPAD 4 FPS (0f0d:0055)
-* Hori HORIPAD 4 FPS Plus (0f0d:0066)
-* Hori HORIPAD S; USB (0f0d:00c1)
-* Hori Nintendo Switch HORIPAD Wired Controller; USB (0f0d:00c1)
+### Hori Co., Ltd (0f0d)
+* Hori HORIPAD 4 FPS; USB (0f0d:0055)
+* Hori HORIPAD 4 FPS Plus; USB (0f0d:0066)
+* Hori RAP4; USB (0f0d:008a)
 * Hori Pokkén Tournament DX Pro Pad for Nintendo Switch; USB (0f0d:0092)
+* Hori Nintendo Switch HORIPAD Wired Controller; USB (0f0d:00c1)
+* HORIPAD mini 4; USB (0f0d:00ee)
+* HORI Alpha for PS5 (PS4 Mode); USB (0f0d:011c)
+* HORI Alpha for PS5 (PC Mode); USB (0f0d:011e)
+* HORI Wireless Pad ONYX PLUS; Bluetooth (0f0d:012d)
+* HORI Wireless Pad ONYX PLUS; USB (0f0d:012d)
+* HORI Alpha for PS5 (PS5 Mode); USB (0f0d:0184)
 * Hori Wireless HORIPAD for Steam; USB (0f0d:01ab)
 
 ### HTC (0bb4)
@@ -128,17 +139,19 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Microsoft Xbox 360 Wireless Receiver for Windows; USB (045e:0719)
 * Microsoft Xbox One S Controller; Bluetooth; USB (045e:02ea) #EXPERIMENTAL
 * Microsoft Xbox One Controller; Bluetooth; USB (045e:02fd)
+* Microsoft Xbox One Elite 2 Controller; Bluetooth (045e:0b22)
 
 ### Nacon (146b)
 * Nacon PS4 Revolution Pro Controller (146b:0d01)
 
 ### Nintendo (057e)
-* Nintendo Switch Pro Controller; Bluetooth; USB (057e:2009)
+* Mayflash Wireless Sensor DolphinBar (057e:0306)
 * Nintendo GameCube Controller / Adapter; USB (057e:0337)
-* Nintendo Switch Joy-Con Charging Grip (057e:200e)
 * Nintendo Switch Joy-Con (L); Bluetooth (057e:2006)
 * Nintendo Switch Joy-Con (R); Bluetooth (057e:2007)
-* Mayflash Wireless Sensor DolphinBar (057e:0306)
+* Nintendo Switch Pro Controller; Bluetooth; USB (057e:2009)
+* Nintendo Switch Joy-Con Charging Grip (057e:200e)
+* Nintendo Switch 2 GameCube Controller; USB (057e:2073)
 
 ### NVIDIA (0955)
 * NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only) (0955:7203)
@@ -146,9 +159,12 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB (0955:7210)
 
 ### Performance Designed Products LLC [PDP] (0e6f)
-* PDP Afterglow Deluxe+ Wired Controller; USB (0e6f:0188)
 * PDP Nintendo Switch Faceoff Wired Pro Controller; USB (0e6f:0180)
+* PDP Faceoff Deluxe+ Audio Wired Pro Controller for Nintendo Switch (0e6f:0184)
 * PDP Wired Fight Pad Pro for Nintendo Switch; USB (0e6f:0185)
+* Logic3 Rock Candy Wired Controller for Nintendo Switch (0e6f:0187)
+* PDP Afterglow Deluxe+ Wired Controller; USB (0e6f:0188)
+* PDP Victrix Pro FS-12 for PS4 & PS5; USB (0e6f:020c)
 
 ### Personal Communication Systems, Inc. (0810)
 * Personal Communication Systems, Inc. Twin USB Gamepad; USB (0810:e301)
@@ -157,7 +173,8 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * EdgeTX, OpenTX Generic [radio controller] Joystick; USB (1209:4f54)
 
 ### PowerA (20d6)
-* PowerA Wired Controller for Nintendo Switch; USB (20d6:a711)
+* PowerA GameCube Style Wired Controller for Nintendo Switch; USB (20d6:a711)
+* PowerA Nintendo Switch Enhanced Wireless Controller; USB (20d6:a711)
 * PowerA Wireless Controller for Nintendo Switch; Bluetooth (NA:NA)
 * PowerA Zelda Wired Controller for Nintendo Switch; USB (20d6:a713)
 
@@ -168,8 +185,14 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Bonjiri Channel Firebird in SInput Mode; USB (2e8a:10e0)
 
 ### Razer (1532)
-* Razer Raiju PS4 Controller (1532:1000)
 * Razer Panthera Arcade Stick (1532:0401)
+* Razer Raiju PS4 Controller (1532:1000)
+* Razer Raiju Ultimate; USB (1532:1004)
+* Razer Raiju 2 Tournament Edition (1532:1007)
+* Razer Panthera EVO Arcade Stick (1532:1008)
+* Razer Raiju Ultimate; Bluetooth (1532:1009)
+* Razer Raiju PS4 Controller Tournament Edition; Bluetooth (1532:100A)
+* Razer Wolverine V2 Pro PS5 Mode; USB (1532:100B)
 * Razer Raion PS4 Fightpad (1532:1100)
 
 ### Sony (054c)
@@ -181,6 +204,12 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Sony DualSense Wireless-Controller; Bluetooth; USB (054c:0ce6)
 * Sony DualSense Edge Wireless-Controller; Bluetooth; USB (054c:0df2)
 * PlayStation VR (054c:09af)
+
+### ThrustMaster, Inc. (044f)
+* Thrustmaster T.16000M Joystick (044f:b10a)
+* Thrustmaster TFRP Rudder (044f:b679)
+* Thrustmaster TWCS Throttle (044f:b687)
+* Thrustmaster eSwap Pro (044f:d00e)
 
 ### Valve (28de)
 * Valve USB devices (28de:*)
@@ -205,9 +234,10 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * VKBsim Gladiator NXT R; USB (231d:0200)
 
 ### Zeroplus Technology Corporation (0c12)
+* Brooks Universal Fighting Board; USB (0c12:0c30)
 * Armor PS4 Armor 3 Pad; USB (0c12:0e10)
-* EMiO PS4 Elite Controller; USB (0c12:1cf6)
 * Hit Box Arcade HIT BOX PS4/PC version; USB (0c12:0ef6)
+* EMiO PS4 Elite Controller; USB (0c12:1cf6)
 * Nyko Xbox Controller; USB (0c12:8801)
 * Unknown-Brand Xbox Controller; USB (0c12:8802)
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
@@ -229,4 +259,4 @@ It will ***not*** work if it's set up as X-Box Controller (thats default)
 
 ## Related Projects
 * [udev-joystick-blacklist](https://github.com/denilsonsa/udev-joystick-blacklist) - Fix for keyboard/mouse/tablet being detected as joystick in Linux.
-* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR expects read/write permissions on.
+* [steam-devices](https://github.com/ValveSoftware/steam-devices) (Last Import: 2026-04-19) - List of devices Steam and SteamVR expects read/write permissions on.
