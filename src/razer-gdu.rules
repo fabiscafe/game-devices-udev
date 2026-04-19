@@ -4,6 +4,9 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}==
 # Razer Raiju 2 Tournament Edition
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1007", MODE="0660", TAG+="uaccess"
 
+# Razer Panthera EVO Arcade Stick
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1008", MODE="0660", TAG+="uaccess"
+
 # Razer Panthera Arcade Stick
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="0401", MODE="0660", TAG+="uaccess"
 
