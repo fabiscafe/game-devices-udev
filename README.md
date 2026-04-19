@@ -259,4 +259,4 @@ It will ***not*** work if it's set up as X-Box Controller (thats default)
 
 ## Related Projects
 * [udev-joystick-blacklist](https://github.com/denilsonsa/udev-joystick-blacklist) - Fix for keyboard/mouse/tablet being detected as joystick in Linux.
-* [steam-devices](https://github.com/ValveSoftware/steam-devices) - List of devices Steam and SteamVR expects read/write permissions on.
+* [steam-devices](https://github.com/ValveSoftware/steam-devices) (Last Import: 2026-04-19) - List of devices Steam and SteamVR expects read/write permissions on.
