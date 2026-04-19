@@ -174,12 +174,13 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Bonjiri Channel Firebird in SInput Mode; USB (2e8a:10e0)
 
 ### Razer (1532)
+* Razer Panthera Arcade Stick (1532:0401)
 * Razer Raiju PS4 Controller (1532:1000)
-* Razer Raiju Ultimate USB (1532:1004); Bluetooth (1532:1009)
+* Razer Raiju Ultimate; USB (1532:1004)
 * Razer Raiju 2 Tournament Edition (1532:1007)
 * Razer Panthera EVO Arcade Stick (1532:1008)
+* Razer Raiju Ultimate; Bluetooth (1532:1009)
 * Razer Raiju PS4 Controller Tournament Edition; Bluetooth (1532:100A)
-* Razer Panthera Arcade Stick (1532:0401)
 * Razer Raion PS4 Fightpad (1532:1100)
 
 ### Sony (054c)
