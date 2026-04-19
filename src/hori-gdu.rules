@@ -1,6 +1,18 @@
 # Hori RAP4
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="008a", MODE="0660", TAG+="uaccess"
 
+# HORI Alpha for PS5 (PS5 Mode)
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0184", MODE="0660", TAG+="uaccess"
+
+# HORI Alpha for PS5 (PS4 Mode)
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="011c", MODE="0660", TAG+="uaccess"
+
+# HORI Alpha for PS5 (PC Mode)
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="011e", MODE="0660", TAG+="uaccess"
+
+# HORIPAD mini 4
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="00ee", MODE="0660", TAG+="uaccess"
+
 # Hori HORIPAD 4 FPS
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0055", MODE="0660", TAG+="uaccess"
 

@@ -98,6 +98,10 @@ If you're having trouble, consider reaching out to a Linux community for assista
 
 ### Hori (0f0d)
 * Hori RAP4 (0f0d:008a)
+* HORI Alpha for PS5 (PS5 Mode) (0f0d:0184)
+* HORI Alpha for PS5 (PS4 Mode) (0f0d:011c)
+* HORI Alpha for PS5 (PC Mode) (0f0d:011e)
+* HORIPAD mini 4 (0f0d:00ee)
 * Hori HORIPAD 4 FPS (0f0d:0055)
 * Hori HORIPAD 4 FPS Plus (0f0d:0066)
 * Hori Nintendo Switch HORIPAD Wired Controller; USB (0f0d:00c1)
