@@ -181,6 +181,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Razer Panthera EVO Arcade Stick (1532:1008)
 * Razer Raiju Ultimate; Bluetooth (1532:1009)
 * Razer Raiju PS4 Controller Tournament Edition; Bluetooth (1532:100A)
+* Razer Wolverine V2 Pro PS5 Mode; USB (1532:100B)
 * Razer Raion PS4 Fightpad (1532:1100)
 
 ### Sony (054c)
