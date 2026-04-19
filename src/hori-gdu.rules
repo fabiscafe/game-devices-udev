@@ -7,9 +7,6 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}==
 # Hori HORIPAD 4 FPS Plus
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0066", MODE="0660", TAG+="uaccess"
 
-# Hori HORIPAD S; USB
-ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="00c1", MODE="0660", TAG+="uaccess"
-
 # Hori Pokkén Tournament DX Pro Pad for Nintendo Switch; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0092", MODE="0660", TAG+="uaccess"
 

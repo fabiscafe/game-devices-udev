@@ -100,7 +100,6 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Hori RAP4 (0f0d:008a)
 * Hori HORIPAD 4 FPS (0f0d:0055)
 * Hori HORIPAD 4 FPS Plus (0f0d:0066)
-* Hori HORIPAD S; USB (0f0d:00c1)
 * Hori Nintendo Switch HORIPAD Wired Controller; USB (0f0d:00c1)
 * Hori Pokkén Tournament DX Pro Pad for Nintendo Switch; USB (0f0d:0092)
 * Hori Wireless HORIPAD for Steam; USB (0f0d:01ab)
