@@ -162,6 +162,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * PDP Nintendo Switch Faceoff Wired Pro Controller; USB (0e6f:0180)
 * PDP Faceoff Deluxe+ Audio Wired Pro Controller for Nintendo Switch (0e6f:0184)
 * PDP Wired Fight Pad Pro for Nintendo Switch; USB (0e6f:0185)
+* Logic3 Rock Candy Wired Controller for Nintendo Switch (0e6f:0187)
 * PDP Afterglow Deluxe+ Wired Controller; USB (0e6f:0188)
 * PDP Victrix Pro FS-12 for PS4 & PS5; USB (0e6f:020c)
 

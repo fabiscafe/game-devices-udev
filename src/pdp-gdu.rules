@@ -7,6 +7,9 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}==
 # PDP Wired Fight Pad Pro for Nintendo Switch; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0185", MODE="0660", TAG+="uaccess"
 
+# Logic3 Rock Candy Wired Controller for Nintendo Switch
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0187", MODE="0660", TAG+="uaccess"
+
 # PDP Afterglow Deluxe+ Wired Controller; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0188", MODE="0660", TAG+="uaccess"
 
