@@ -9,3 +9,6 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}==
 
 # PDP Wired Fight Pad Pro for Nintendo Switch; USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0185", MODE="0660", TAG+="uaccess"
+
+# PDP Victrix Pro FS-12 for PS4 & PS5; USB
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="020c", MODE="0660", TAG+="uaccess"

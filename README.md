@@ -156,6 +156,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * PDP Nintendo Switch Faceoff Wired Pro Controller; USB (0e6f:0180)
 * PDP Faceoff Deluxe+ Audio Wired Pro Controller for Nintendo Switch (0e6f:0184)
 * PDP Wired Fight Pad Pro for Nintendo Switch; USB (0e6f:0185)
+* PDP Victrix Pro FS-12 for PS4 & PS5; USB (0e6f:020c)
 
 ### Personal Communication Systems, Inc. (0810)
 * Personal Communication Systems, Inc. Twin USB Gamepad; USB (0810:e301)
