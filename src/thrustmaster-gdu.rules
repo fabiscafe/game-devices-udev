@@ -1,5 +1,8 @@
 # Thrustmaster TFRP Rudder
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="044f", ATTRS{idProduct}=="b679", MODE="0660", TAG+="uaccess"
 
+# Thrustmaster TWCS Throttle
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="044f", ATTRS{idProduct}=="b687", MODE="0660", TAG+="uaccess"
+
 # Thrustmaster eSwap Pro
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="044f", ATTRS{idProduct}=="d00e", MODE="0660", TAG+="uaccess"

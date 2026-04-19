@@ -200,6 +200,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 
 ### ThrustMaster, Inc. (044f)
 * Thrustmaster TFRP Rudder (044f:b679)
+* Thrustmaster TWCS Throttle (044f:b687)
 * Thrustmaster eSwap Pro (044f:d00e)
 
 ### Valve (28de)
