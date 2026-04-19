@@ -12,6 +12,9 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}==
 # Razer Panthera EVO Arcade Stick
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1008", MODE="0660", TAG+="uaccess"
 
+# Razer Raiju PS4 Controller Tournament Edition; Bluetooth
+ACTION!="remove", KERNEL=="hidraw*", KERNELS=="*1532:100A*", MODE="0660", TAG+="uaccess"
+
 # Razer Panthera Arcade Stick
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="0401", MODE="0660", TAG+="uaccess"
 
