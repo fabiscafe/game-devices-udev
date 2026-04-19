@@ -34,6 +34,7 @@ rules_map = {
   'raspberry_pi_ltd-gdu.rules' : 'raspberry_pi_ltd',
   'razer-gdu.rules' : 'razer',
   'sony-gdu.rules' : 'sony',
+  'thrustmaster-gdu.rules' : 'thrustmaster',
   'uinput-dev-early-creation.rules' : 'uinput_dev_early_creation',
   'valve-gdu.rules' : 'valve',
   'vkb_sim-gdu.rules' : 'vkb_sim',

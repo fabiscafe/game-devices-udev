@@ -22,6 +22,7 @@ option('powera', type: 'boolean', value: true, description: 'Install powera udev
 option('raspberry_pi_ltd', type: 'boolean', value: true, description: 'Install raspberry_pi_ltd udev rule')
 option('razer', type: 'boolean', value: true, description: 'Install razer udev rule')
 option('sony', type: 'boolean', value: true, description: 'Install sony udev rule')
+option('thrustmaster', type: 'boolean', value: true, description: 'Install thrustmaster udev rule')
 option('valve', type: 'boolean', value: true, description: 'Install valve udev rule')
 option('vkb_sim', type: 'boolean', value: true, description: 'Install vkb_sim udev rule')
 option('zeroplus_technology_corporation', type: 'boolean', value: true, description: 'Install zeroplus_technology_corporation udev rule')
