@@ -96,7 +96,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 ### Google (18d1)
 * Google Stadia Controller; Bluetooth; USB (18d1:9400)
 
-### Hori (0f0d)
+### Hori Co., Ltd (0f0d)
 * Hori HORIPAD 4 FPS; USB (0f0d:0055)
 * Hori HORIPAD 4 FPS Plus; USB (0f0d:0066)
 * Hori RAP4; USB (0f0d:008a)
