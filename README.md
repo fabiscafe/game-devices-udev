@@ -139,12 +139,12 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Nacon PS4 Revolution Pro Controller (146b:0d01)
 
 ### Nintendo (057e)
-* Nintendo Switch Pro Controller; Bluetooth; USB (057e:2009)
+* Mayflash Wireless Sensor DolphinBar (057e:0306)
 * Nintendo GameCube Controller / Adapter; USB (057e:0337)
-* Nintendo Switch Joy-Con Charging Grip (057e:200e)
 * Nintendo Switch Joy-Con (L); Bluetooth (057e:2006)
 * Nintendo Switch Joy-Con (R); Bluetooth (057e:2007)
-* Mayflash Wireless Sensor DolphinBar (057e:0306)
+* Nintendo Switch Pro Controller; Bluetooth; USB (057e:2009)
+* Nintendo Switch Joy-Con Charging Grip (057e:200e)
 * Nintendo Switch 2 GameCube Controller; USB (057e:2073)
 
 ### NVIDIA (0955)
