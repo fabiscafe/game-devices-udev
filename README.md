@@ -105,6 +105,8 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * HORIPAD mini 4; USB (0f0d:00ee)
 * HORI Alpha for PS5 (PS4 Mode); USB (0f0d:011c)
 * HORI Alpha for PS5 (PC Mode); USB (0f0d:011e)
+* HORI Wireless Pad ONYX PLUS; Bluetooth (0f0d:012d)
+* HORI Wireless Pad ONYX PLUS; USB (0f0d:012d)
 * HORI Alpha for PS5 (PS5 Mode); USB (0f0d:0184)
 * Hori Wireless HORIPAD for Steam; USB (0f0d:01ab)
 

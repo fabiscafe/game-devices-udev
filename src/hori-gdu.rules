@@ -22,6 +22,12 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}==
 # HORI Alpha for PS5 (PC Mode); USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="011e", MODE="0660", TAG+="uaccess"
 
+# HORI Wireless Pad ONYX PLUS; Bluetooth
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="012b", MODE="0660", TAG+="uaccess"
+
+# HORI Wireless Pad ONYX PLUS; USB
+ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="012d", MODE="0660", TAG+="uaccess"
+
 # HORI Alpha for PS5 (PS5 Mode); USB
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0184", MODE="0660", TAG+="uaccess"
 
