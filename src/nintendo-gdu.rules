@@ -20,3 +20,6 @@ ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}==
 
 # Mayflash Wireless Sensor DolphinBar
 ACTION!="remove", SUBSYSTEM=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0306", TAG+="uaccess"
+
+# Nintendo Switch 2 GameCube Controller; USB
+ACTION!="remove", SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2073", MODE="0660", TAG+="uaccess"

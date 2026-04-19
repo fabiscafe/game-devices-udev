@@ -145,6 +145,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * Nintendo Switch Joy-Con (L); Bluetooth (057e:2006)
 * Nintendo Switch Joy-Con (R); Bluetooth (057e:2007)
 * Mayflash Wireless Sensor DolphinBar (057e:0306)
+* Nintendo Switch 2 GameCube Controller; USB (057e:2073)
 
 ### NVIDIA (0955)
 * NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only) (0955:7203)
