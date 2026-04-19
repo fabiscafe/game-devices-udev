@@ -217,13 +217,13 @@ If you're having trouble, consider reaching out to a Linux community for assista
 * VKBsim Gladiator NXT R; USB (231d:0200)
 
 ### Zeroplus Technology Corporation (0c12)
+* Brooks Universal Fighting Board; USB (0c12:0c30)
 * Armor PS4 Armor 3 Pad; USB (0c12:0e10)
-* EMiO PS4 Elite Controller; USB (0c12:1cf6)
 * Hit Box Arcade HIT BOX PS4/PC version; USB (0c12:0ef6)
+* EMiO PS4 Elite Controller; USB (0c12:1cf6)
 * Nyko Xbox Controller; USB (0c12:8801)
 * Unknown-Brand Xbox Controller; USB (0c12:8802)
 * Unknown-Brand Xbox Controller; USB (0c12:8810)
-* Brooks Universal Fighting Board; USB (0c12:0c30)
 
 ## Known Issues
 ### 8BitDo Pro 3
