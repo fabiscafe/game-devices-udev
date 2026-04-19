@@ -92,6 +92,7 @@ If you're having trouble, consider reaching out to a Linux community for assista
 
 ### Bigscreen, Inc. (35bd)
 * Bigscreen Beyond (35bd:0101)
+* Bigscreen Beyond Firmware Mode (35bd:4004) #EXPERIMENTAL
 
 ### Cypress Semiconductor Corp. [+Flydigi] (04b4)
 * Flydigi Apex 4 Controller; Bluetooth; USB (04b4:2412)
