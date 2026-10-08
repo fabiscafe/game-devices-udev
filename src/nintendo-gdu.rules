@@ -17,6 +17,12 @@ ACTION!="remove", KERNEL=="hidraw*", KERNELS=="*057E:2009*", MODE="0660", TAG+="
 ACTION!="remove", KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2009", MODE="0660", TAG+="uaccess"
 # Grand access for some userspace tools, if connected via USB
 ACTION!="remove", SUBSYSTEM=="usb", ATTR{idVendor}=="057e", ATTR{idProduct}=="2009", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+# Grand access to all input event nodes (gamepad + IMU motion sensors / gyro)
+ACTION!="remove", SUBSYSTEM=="input", KERNELS=="*057E:2009*", TAG+="uaccess"
+ACTION!="remove", SUBSYSTEM=="input", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2009", TAG+="uaccess"
+# Prevent iio-sensor-proxy from using the IMU as a screen rotation sensor
+ACTION!="remove", SUBSYSTEM=="input", KERNELS=="*057E:2009*", ENV{ID_INPUT_ACCELEROMETER}=="1", ENV{IIO_SENSOR_PROXY_TYPE}="", ENV{SYSTEMD_WANTS}=""
+ACTION!="remove", SUBSYSTEM=="input", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2009", ENV{ID_INPUT_ACCELEROMETER}=="1", ENV{IIO_SENSOR_PROXY_TYPE}="", ENV{SYSTEMD_WANTS}=""
 
 # Nintendo Switch Joy-Con Charging Grip; USB
 ACTION!="remove", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="200e", MODE="0660", TAG+="uaccess"
