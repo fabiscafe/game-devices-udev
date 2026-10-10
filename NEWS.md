@@ -1,11 +1,17 @@
 # Releases!
+## X.Y
+### New
+### Changes
+
 ## 1.1
 ### New
 + Support for Switch Pro Controllers gyro _by @ffosilva in d2db4ee36c342b2afed11c6746106d44e6f520c6_
 + Support for web-based configuration tools¹ for SInput Devices _by @ToadKing in e086051bb04d20cc24b0a7aa560fafd7c9aa8465_
 
 ### Changes
-+ Narrow the Valve controller bootloader rules to the known product IDs _by @ardragon in 71f1393036fed91d112eab5195c7cfd95e9547e2_
++ Narrow the Valve controller bootloader rules to the known product IDs _by @fardragon in 71f1393036fed91d112eab5195c7cfd95e9547e2_
+
+¹ https://handheldlegend.github.io/hoja2/ , https://handheldlegend.github.io/hoja3/
 
 Big thanks again to @ewout, @fardragon and @ffosilva! (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
 
